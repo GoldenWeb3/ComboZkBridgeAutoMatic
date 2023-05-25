@@ -1,16 +1,17 @@
 # ComboZkBridgeAutoMatic
 
-#填充对应的钱包信息
+
+# 所有请求均为项目方官方链接，欢迎大家查阅。
+
+
+# 1 填充自己的私钥
 privateKey = ''
 
+
+# 2.bsc链领取Combo Nft和跨链到Combo 测试网
 mintComboAndBridgeToCombo(privateKey)
 
-time.sleep(30)
+# 23.在步骤2完成后，在Combo Test测试网领取Nft
 mintInComboTestNetWork(privateKey)
 
-1.mintComboAndBridgeToCombo
-bsc链领取Mint Nft
-
-2.mintInComboTestNetWork
-在步骤1完成后，在Combo Test测试网领取Nft
 
